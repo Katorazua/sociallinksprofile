@@ -1,0 +1,301 @@
+/* General styling */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 8%);
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Desktop-design */
+@media screen and (max-width: 1440px) {
+    main {
+        margin: 250px auto;
+        width: 25%;
+        height: fit-content;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 10px;
+        align-content: center;
+    }
+    
+    .profile {
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .profile img {
+        border-radius: 50%;
+        padding: 25px;
+        width: 8rem;
+    }
+    
+    .profile h2 {
+        font-size: 14px;
+        color: hsl(75, 94%, 57%);
+        padding-top: 5px;
+    }
+    
+    .profile p {
+        font-size: 15px;
+        padding-top: 20px;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .nav {
+        margin-top: -25px;
+        padding: 15px;
+    }
+    
+    .nav ul li {
+        text-align: center;
+        margin: 15px;
+        padding: 10px;
+        list-style-type: none;
+        background-color: hsl(0, 0%, 20%);
+        border: none;
+        border-width: 100px;
+        border-radius: 5px;
+    }
+    
+    .nav ul li a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        font-size: 14px;
+    }
+    
+    .nav ul li:hover {
+        background-color: hsl(75, 94%, 57%);
+    }
+    
+    .nav ul li.active-link {
+        background-color: hsl(75, 94%, 57%);
+    }
+
+    .attribution { 
+        margin-top: -15rem;
+     }
+}
+
+/* Laptop designs */
+@media screen and (max-width: 1200px) {
+    main {
+        margin: 80px auto;
+        width: 30%;
+        height: fit-content;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 10px;
+        align-content: center;
+    }
+    
+    .profile {
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .profile img {
+        border-radius: 50%;
+        padding: 25px;
+        width: 8rem;
+    }
+    
+    .profile h2 {
+        font-size: 14px;
+        color: hsl(75, 94%, 57%);
+        padding-top: 5px;
+    }
+    
+    .profile p {
+        font-size: 15px;
+        padding-top: 20px;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .nav {
+        margin-top: -25px;
+        padding: 15px;
+    }
+    
+    .nav ul li {
+        text-align: center;
+        margin: 15px;
+        padding: 10px;
+        list-style-type: none;
+        background-color: hsl(0, 0%, 20%);
+        border: none;
+        border-width: 100px;
+        border-radius: 5px;
+    }
+    
+    .nav ul li a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        font-size: 14px;
+    }
+    
+    .nav ul li:hover {
+        background-color: hsl(75, 94%, 57%);
+    }
+    
+    .nav ul li.active-link {
+        background-color: hsl(75, 94%, 57%);
+    }
+
+    .attribution { 
+        margin-top: -4.5rem;
+    }
+}
+
+/* Tablet-designs */
+@media screen and (max-width: 768px) {
+    main {
+        margin: 40px auto;
+        width: 40%;
+        height: fit-content;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 10px;
+        align-content: center;
+    }
+    
+    .profile {
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .profile img {
+        border-radius: 50%;
+        padding: 25px;
+        width: 8rem;
+    }
+    
+    .profile h2 {
+        font-size: 14px;
+        color: hsl(75, 94%, 57%);
+        padding-top: 5px;
+    }
+    
+    .profile p {
+        font-size: 14px;
+        padding-top: 20px;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .nav {
+        margin-top: -25px;
+        padding: 15px;
+    }
+    
+    .nav ul li {
+        text-align: center;
+        margin: 15px;
+        padding: 10px;
+        list-style-type: none;
+        background-color: hsl(0, 0%, 20%);
+        border: none;
+        border-width: 100px;
+        border-radius: 5px;
+    }
+    
+    .nav ul li a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        font-size: 14px;
+    }
+    
+    .nav ul li:hover {
+        background-color: hsl(75, 94%, 57%);
+    }
+    
+    .nav ul li.active-link {
+        background-color: hsl(75, 94%, 57%);
+    }
+
+    .attribution { 
+        margin-top: -2rem;
+    }
+}
+
+/* Mobile-design */
+@media screen and (max-width: 375px) {
+    main {
+        margin: 40px auto;
+        width: 90%;
+        height: fit-content;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 10px;
+        align-content: center;
+    }
+    
+    .profile {
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .profile img {
+        border-radius: 50%;
+        padding: 25px;
+        width: 8rem;
+    }
+    
+    .profile h2 {
+        font-size: 14px;
+        color: hsl(75, 94%, 57%);
+        padding-top: 5px;
+    }
+    
+    .profile p {
+        font-size: 14px;
+        padding-top: 20px;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .nav {
+        margin-top: -25px;
+        padding: 15px;
+    }
+    
+    .nav ul li {
+        text-align: center;
+        margin: 15px;
+        padding: 10px;
+        list-style-type: none;
+        background-color: hsl(0, 0%, 20%);
+        border: none;
+        border-width: 100px;
+        border-radius: 5px;
+    }
+    
+    .nav ul li a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        font-size: 14px;
+    }
+    
+    .nav ul li:hover {
+        background-color: hsl(75, 94%, 57%);
+    }
+    
+    .nav ul li.active-link {
+        background-color: hsl(75, 94%, 57%);
+    }
+
+    .attribution { 
+        margin-top: -1.5rem;
+    }
+}
